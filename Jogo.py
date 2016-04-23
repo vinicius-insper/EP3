@@ -34,3 +34,8 @@ class jogo():
 			return 0
 		else:
 			return -1
+
+	def limpa_jogadas(self):
+		self.matriz = zeros((3,3))
+		self.turno = 1
+		self.rodada = 0
